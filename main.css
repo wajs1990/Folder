@@ -1,0 +1,121 @@
+#hero{
+    width: 650px;
+    height: 400px;
+    display: block;
+    position: relative;
+    margin: 20px auto;
+
+}
+#slider{
+    width: 650px;
+    height: 400px;
+    display: block;
+    position: absolute;
+}
+.info{
+    width: 650px;
+    height: 40px;
+    display: block;
+    position: relative;
+}
+h2{
+    border:2px solid red;
+    margin-top: -50px;
+    color: #fff; 
+}
+#play{
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 49px;
+    background:burlywood;
+    color: #fff;
+    z-index: 999;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    border-radius: 5px;
+}
+#play:hover{
+    background: rgb(160, 130, 90);
+}
+#pause:hover{
+    background: rgb(160, 130, 90);
+}
+#next:hover{
+    background: rgb(160, 130, 90);
+}
+#prev:hover{
+    background: rgb(160, 130, 90);
+}
+#pause{
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top:20px;
+    right: 95px;
+    color: #fff;
+    background:burlywood;
+    z-index: 999;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    border-radius: 5px;
+}
+#next{
+    width: 35px;
+    height: 35px;
+    line-height:35px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top:20px;
+    right: 0;
+    color: #fff;
+    background:burlywood;
+    z-index: 999;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+#prev{
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 140px;
+    z-index: 999;
+    color: #fff;
+    background:burlywood;
+    border-radius: 5px;
+}
+#pager{
+    width: 100%;
+    text-align: center;
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    z-index: 999;
+}
+#pager a {
+    color: transparent;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    position: relative;
+    border: 1px solid #fff;
+    border-radius: 20px;
+
+    padding: 3px;
+    margin: 5px;
+}
+#pager a.activeSlide{
+    background: #fff;
+}
